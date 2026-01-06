@@ -1,0 +1,16 @@
+[package]
+name = "resale_marketplace_v3"
+version = "1.0.0"
+authors = []
+
+[addresses]
+marketplace_addr = "_"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-framework" }
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-token-objects" }
+
+[dev-addresses]
+marketplace_addr = "0x2de27c8f1b5443dce33e05748331ac4fe52ec792788597a77550067b6d915088"
+
+[dev-dependencies]
