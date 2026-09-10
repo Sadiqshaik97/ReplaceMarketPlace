@@ -10,8 +10,8 @@ export interface Listing {
     royaltyPercentage: number;
     seller: string;
     originalBuyer: string;
-    owner: string;
-    resaleCount: number;
+    owner?: string;
+    resaleCount?: number;
     isListed: boolean;
     date?: string;
     checkIn?: string;

@@ -172,6 +172,7 @@ export function useGetListing(tokenAddress: string | undefined) {
 
                     originalBuyer: originalBuyer,
                     owner: owner,
+                    resaleCount: Number(resaleCount) || 0,
                     isListed: isActive,
                     date: checkIn ? `${checkIn} - ${checkOut}` : '',
                     checkOutTimestamp: Number(checkOutTimestamp) || 0,
